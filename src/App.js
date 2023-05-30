@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
-import Wheather from "./components/wheather";
+import Weather from "./components/weather";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Wheather />} />
+        <Route path="/" element={<Weather />} />
       </Routes>
     </BrowserRouter>
   );

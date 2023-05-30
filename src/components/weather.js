@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "../components/wheather.css";
+import "../components/weather.css";
 
-function Wheather() {
+function Weather() {
   const [data, setData] = useState({ name: "No-Data" });
   const [location, setLocation] = useState("");
 
@@ -85,4 +85,4 @@ function Wheather() {
   );
 }
 
-export default Wheather;
+export default Weather;
